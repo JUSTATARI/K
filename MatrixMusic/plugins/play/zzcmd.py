@@ -34,7 +34,7 @@ async def zzzback(_, query: CallbackQuery):
                         "• اوامــر المطــور •", callback_data="zzzdv"),
                 ],[ 
                     InlineKeyboardButton(
-                        "• سورس ريسكس •", url="https://t.me/vvizinn"),
+                        "• سورس ريسكس •", url="https://t.me/zzzziiio"),
                 ],
             ]
         ),
