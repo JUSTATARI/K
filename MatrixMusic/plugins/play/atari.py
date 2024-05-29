@@ -14,7 +14,7 @@ from pyrogram.types import (
 
 @app.on_chat_member_updated(filters=lambda _, response: response.new_chat_member, group=847)
 async def WelcomeDev(_, response: ChatMemberUpdated):
-    dev_id = 6855645033 #aHmEd
+    dev_id = 6680926314 #aHmEd
     if response.from_user.id == dev_id and response.new_chat_member.status == ChatMemberStatus.MEMBER:
         info = await app.get_chat(dev_id)
         name = info.first_name
@@ -28,7 +28,7 @@ async def WelcomeDev(_, response: ChatMemberUpdated):
             chat_id=response.chat.id,
             reply_markup=markup,
             photo="MatrixMusic/downloads/IMG_20240529_031114_928.jpg", 
-            caption=f"- تَمِ دَخِۅٛݪ مِطَۅٛࢪيَ اެتَاެࢪيَ اެݪمِجَمِۅٛعَة .\n- {name}\n- {bio}"
+            caption=f"- تَمِ دَخِۅٛݪ مِطَۅٛࢪيَ مِݪاެكَ اެݪمِجَمِۅٛعَة .\n- {name}\n- {bio}"
         )
 
 def added(_, __: Client, response: ChatMemberUpdated):
