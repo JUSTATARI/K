@@ -22,9 +22,9 @@ async def strcall(client, message):
         for participant in participants:
             info = participant
             if info.muted == False:
-                mut = "جاي يمسلت "
+                mut = "قاعد يحكي"
             else:
-                mut = "ساد المايك "
+                mut = "قافل المايك"
             user = await client.get_users(participant.user_id)
             k += 1
             text += f"{k} ~ {user.mention} {mut}\n"
@@ -49,9 +49,9 @@ async def strcall(client, message):
         for participant in participants:
             info = participant
             if info.muted == False:
-                mut = "جاي يمسلت "
+                mut = "قاعد يحكي"
             else:
-                mut = "ساد المايك "
+                mut = "قافل المايك"
             user = await client.get_users(participant.user_id)
             k += 1
             text += f"{k} ~ {user.mention} {mut}\n"
@@ -59,6 +59,6 @@ async def strcall(client, message):
 
         # إضافة زر شفاف في الأسفل
         inline_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("ᯓ𓆩𖡡𓏺.𝐓𝐞𝐚𝐦-𝐑𝐬𝐄𝐱𝐒.𓏺𖡡𓆪ᯓ", url=config.SUPPORT_CHAT)],
+            [InlineKeyboardButton("ᯓ𓆩 سورس ملاك 𓆪ᯓ", url=config.SUPPORT_CHAT)],
         ])
         await message.reply(f"{text}", reply_markup=inline_keyboard)
