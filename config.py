@@ -53,7 +53,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 
-CHANNEL_NAME = getenv("CHANNEL_NAME", "ᯓ𓆩𖡡𓏺.𝐓𝐞𝐚𝐦-مِݪاެكَ.𓏺𖡡𓆪ᯓ")
+CHANNEL_NAME = getenv("CHANNEL_NAME", "• سورس ملاك •")
 CHANNEL_LINK = getenv("CHANNEL_LINK", "zzzzzsso")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/zzzzzsso")
 
@@ -98,21 +98,21 @@ command = ["/"]
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-STATS_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-STREAM_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a74d5babf7d1446a66b04.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/c6b569ed5b13112ab798c.jpg"
 
 
 def time_to_seconds(time):
