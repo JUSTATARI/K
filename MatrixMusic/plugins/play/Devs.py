@@ -90,7 +90,7 @@ async def yas(client, message):
   
 )
 async def yas(client, message):
-    usr = await client.get_chat("NUNUU")
+    usr = await client.get_chat("Yll9ll")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"– – – – – – – – – – – – – – – – – –\n↯︙𝖣𝖾𝗏 ↬ ⦗ {name} ⦘\n↯︙𝖴𝗌𝖤𝗋 ↬ ⦗ @{usr.username} ⦘\n↯︙𝖨𝖣 ↬ ⦗ {usr.id} ⦘\n↯︙𝖡𝗂𝖮 ↬ ⦗ {usr.bio} ⦘\n– – – – – – – – – – – – – – – – – –",  
@@ -104,7 +104,7 @@ async def yas(client, message):
         ),
     )
     
-@app.on_message(command(["مطورين","مطورين السورس","المطورين"]))
+@app.on_message(command(["المطور","مطور السورس","المبرمج"]))
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/f98c8fd479b206648d6c8.jpg",
@@ -113,13 +113,13 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "‹ : 𝖣𝖾𝗏 : ›", url=f"https://t.me/A1RTR"), 
+                        "‹ : 𝖣𝖾𝗏 : ›", url=f"https://t.me/‏zzziioii"), 
                  ],[
                     InlineKeyboardButton(
-                        "‹ : 𝖣𝖾𝗏 : ›", url=f"https://t.me/NUNUU"),
+                        "‹ : Channel : ›", url=f"https://t.me/zzzzzsso"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ : 𝖬𝖺𝖳𝗋𝗂x 𝖳𝖾𝖠𝗆 : ›", url=f"https://t.me/KKKK5Z"),
+                        "‹ :بَۅٛتَ مِݪاެكَ : ›", url=f"https://t.me/zzzzzsso"),
                 ],
 
             ]
@@ -130,7 +130,7 @@ async def huhh(client: Client, message: Message):
 
 @app.on_chat_member_updated(filters=lambda _, response: response.new_chat_member)
 async def WelcomeDev(_, response: ChatMemberUpdated):
-    dev_id = 6855645033 #aHmEd
+    dev_id = 6680926314 #aHmEd
     if response.from_user.id == dev_id and response.new_chat_member.status == ChatMemberStatus.MEMBER:
         info = await app.get_chat(dev_id)
         name = info.first_name
@@ -144,5 +144,5 @@ async def WelcomeDev(_, response: ChatMemberUpdated):
             chat_id=response.chat.id,
             reply_markup=markup,
             photo="MatrixMusic/downloads/IMG_20240429_132344_166.jpg", 
-            caption=f"- تَمِ دَخِۅٛݪ مِطَۅٛࢪيَ اެتَاެࢪيَ اެݪمِجَمِۅٛعَة .\n- {name}\n- {bio}"
+            caption=f"- تَمِ دَخِۅٛݪ مِطَۅٛࢪيَ اެݪࢪ࣪عَيَمِ اެݪمِجَمِۅٛعَة .\n- {name}\n- {bio}"
         )
